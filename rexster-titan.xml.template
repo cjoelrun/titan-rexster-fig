@@ -94,7 +94,7 @@
             <graph-type>com.thinkaurelius.titan.tinkerpop.rexster.TitanGraphConfiguration</graph-type>
             <graph-read-only>false</graph-read-only>
             <properties>
-                <storage.backend>cassandrathrift</storage.backend> 
+                <storage.backend>cassandra</storage.backend>
                 <storage.hostname>_CASSANDRA_HOSTNAME_</storage.hostname>
                 <storage.port>_CASSANDRA_TCP_PORT_</storage.port> <!-- Cassandra Thrift Port -->
                 <cache.db-cache>true</cache.db-cache>
@@ -109,6 +109,6 @@
                     <allow>tp:gremlin</allow>
                 </allows>
             </extensions>
-        </graph>    
+        </graph>
     </graphs>
 </rexster>
