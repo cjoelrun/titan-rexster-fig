@@ -15,3 +15,6 @@ titan:
   links:
     - cassandra
     - elasticsearch
+web:
+  build: web
+  command: python app.py
