@@ -18,3 +18,5 @@ titan:
 web:
   build: web
   command: python app.py
+  links:
+    - titan
