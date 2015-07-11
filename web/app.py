@@ -21,7 +21,7 @@ class Knows(Relationship):
 
 from bulbs.rexster import Graph
 
-config = Config("http://titan:31182")
+config = Config("http://titan:8182")
 config.set_logger(DEBUG)
 g = Graph(config)
 g.add_proxy("people", Person)
