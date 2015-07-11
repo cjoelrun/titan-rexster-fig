@@ -3,7 +3,7 @@ cassandra:
   ports:
     - "31160:9160"
 elasticsearch:
-  image: dockerfile/elasticsearch
+  image: elasticsearch
   ports:
     - "31200:9200"
 titan:
