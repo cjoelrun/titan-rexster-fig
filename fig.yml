@@ -1,10 +1,11 @@
 cassandra:
-  image: poklet/cassandra:latest
+  image: cassandra
   ports:
     - "9160"
 elasticsearch:
   image: elasticsearch
   ports:
+    # - "9200"
     - "9300"
 titan:
   build: .
