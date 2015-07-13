@@ -1,6 +1,4 @@
-FROM ecompositor/centos-scala:latest
-
-MAINTAINER michael klatskin <michael@ecompositor.com>
+FROM java:8
 
 WORKDIR /opt/titan-0.5.4-hadoop2
 
