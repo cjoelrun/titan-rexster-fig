@@ -19,7 +19,7 @@ class Knows(Relationship):
 
     created = DateTime(default=current_datetime, nullable=False)
 
-from bulbs.rexster import Graph
+from bulbs.titan import Graph
 
 config = Config("http://titan:8182")
 config.set_logger(DEBUG)
