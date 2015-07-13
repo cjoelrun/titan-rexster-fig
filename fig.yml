@@ -7,7 +7,7 @@ elasticsearch:
   ports:
     - "31200:9200"
 titan:
-  image: ecompositor/titan-rexster-fig
+  build: .
   ports:
     - "31182:8182"
     - "8183"
