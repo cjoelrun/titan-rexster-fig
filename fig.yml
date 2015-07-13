@@ -1,15 +1,15 @@
 cassandra:
   image: poklet/cassandra:latest
   ports:
-    - "31160:9160"
+    - "9160"
 elasticsearch:
   image: elasticsearch
   ports:
-    - "31200:9200"
+    - "9300"
 titan:
   build: .
   ports:
-    - "31182:8182"
+    - "8182:8182"
     - "8183"
     - "8184"
   links:
